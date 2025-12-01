@@ -53,7 +53,7 @@ body {
 .phone {
     width: 400px;
     height: 300px;
-    background-position: center 92.5%;
+    background-position: center;
     background-size: contain;
     background-image: url(Img/phone_inactive.png);
     display:inline-block;
@@ -68,6 +68,17 @@ body {
     background-position: center;
     background-size: contain;
     background-image: url(Img/phone_active.png);
+    display:inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.notes {
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(Img/music.png);
     display:inline-block;
     background-size: 100%;
     background-repeat: no-repeat;
