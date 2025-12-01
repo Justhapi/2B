@@ -5,7 +5,22 @@ body {
 
 /* Logo Box */
 .logo-box {
-    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-image: url(Img/logo_inactive.png);
+    display:inline-block;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease;
+}
+
+.logo-box:hover {
+    background-position: center;
+    background-size: 100%;
+    background-image: url(Img/logo_active.png);
+    display:inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 /* Custom Navigation Links */
