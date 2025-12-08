@@ -109,8 +109,8 @@ body {
 }
 
 .sign {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     background-size: 100%;
     background-position: center;
     background-image: url(Img/sign.png);
