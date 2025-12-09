@@ -115,6 +115,21 @@ body {
     background-position: center;
     background-image: url(Img/sign.png);
     background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loaf {
+    width: 500px;
+    height: 500px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(Img/loaf.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 
